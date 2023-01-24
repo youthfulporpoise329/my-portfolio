@@ -3,6 +3,9 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ProjectNavBar from './ProjectNavBar'; 
 import { borderRadius } from '@mui/system';
+import Bakery from './assets/images/bakery.png'; 
+import Aggregator from './assets/images/aggregator.svg'; 
+import FilterInfo from './assets/images/filter-info.svg'; 
 
 function Development() {
     return (
@@ -33,11 +36,11 @@ function Development() {
                             <br/>
                         </Typography>
                         <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '40px'}}>
-                            <img src="/images/bakery.png" alt="my bakery website" width="100%"/>
+                            <img src={Bakery} alt="my bakery website" width="100%"/>
                             <div style={{width: '100%', borderBottom: '1px solid #e2e2e2'}}></div>
-                            <img src="/images/aggregator.svg" alt="bakery cart aggregator" width="60%"/>
+                            <img src={Aggregator} alt="bakery cart aggregator" width="60%"/>
                             <div style={{width: '100%', borderBottom: '1px solid #e2e2e2'}}></div>
-                            <img src="/images/filter-info.svg" alt="bakery sort/filter function" width="100%"/>
+                            <img src={FilterInfo} alt="bakery sort/filter function" width="100%"/>
                         </Box>
                     <Typography variant='h5' gutterBottom>Reflection</Typography>
                         <Typography gutterBottom>I gained: 

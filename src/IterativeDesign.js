@@ -6,6 +6,20 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import './IterativeDesign.css';
+import IsabelleOne from './assets/images/isabelle1.png'; 
+import IsabelleTwo from './assets/images/isabelle2.png'; 
+import IsabelleThree from './assets/images/isabelle3.png'; 
+import JaredOne from './assets/images/jared1.png'; 
+import JaredTwo from './assets/images/jared2.png'; 
+import JaredThree from './assets/images/jared3.png'; 
+import JesseOne from './assets/images/jesse1.png'; 
+import JesseTwo from './assets/images/jesse2.png'; 
+import JesseThree from './assets/images/jesse3.png'; 
+import JacksonOne from './assets/images/jackson1.png'; 
+import JacksonTwo from './assets/images/jackson2.png'; 
+import JacksonThree from './assets/images/jackson3.png'; 
+import JacksonFour from './assets/images/jackson4.png'; 
+
 
 function IterativeDesign() {
     return (
@@ -42,25 +56,25 @@ function IterativeDesign() {
                                 We got together as a group and each brainstormed rough sketches for multiple different pages of our interface. Below are the ideas we came up with. 
                             </Typography>
                             <div style={{display: 'flex', justifyContent: 'space-between', gap: '20px', paddingTop: '20px'}}>
-                                <img src="/images/isabelle1.png" width="370px" max-height="auto"/>
-                                <img src="/images/isabelle2.png" width="370px" max-height="auto"/>
-                                <img src="/images/isabelle3.png" width="370px" max-height="auto"/>
+                                <img src={IsabelleOne} width="370px" max-height="auto"/>
+                                <img src={IsabelleTwo} width="370px" max-height="auto"/>
+                                <img src={IsabelleThree} width="370px" max-height="auto"/>
                             </div>
                             <div style={{display: 'flex', justifyContent: 'space-between', paddingTop: '20px'}}>
-                                <img src="/images/jared1.png" width="370px" max-height="auto"/>
-                                <img src="/images/jared2.png" width="370px" max-height="auto"/>
-                                <img src="/images/jared3.png" width="370px" max-height="auto"/>
+                                <img src={JaredOne} width="370px" max-height="auto"/>
+                                <img src={JaredTwo} width="370px" max-height="auto"/>
+                                <img src={JaredThree} width="370px" max-height="auto"/>
                             </div>
                             <div style={{display: 'flex', justifyContent: 'space-between', paddingTop: '20px'}}>
-                                <img src="/images/jesse1.png" width="370px" max-height="auto"/>
-                                <img src="/images/jesse2.png" width="370px" max-height="auto"/>
-                                <img src="/images/jesse3.png" width="370px" max-height="auto"/>
+                                <img src={JesseOne} width="370px" max-height="auto"/>
+                                <img src={JesseTwo} width="370px" max-height="auto"/>
+                                <img src={JesseThree} width="370px" max-height="auto"/>
                             </div>
                             <div style={{display: 'flex', justifyContent: 'space-between', paddingTop: '20px'}}>
-                                <img src="/images/jackson1.png" width="275px" max-height="auto"/>
-                                <img src="/images/jackson2.png" width="275px" max-height="auto"/>
-                                <img src="/images/jackson3.png" width="275px" max-height="auto"/>
-                                <img src="/images/jackson4.png" width="275px" max-height="auto"/>
+                                <img src={JacksonOne} width="275px" max-height="auto"/>
+                                <img src={JacksonTwo} width="275px" max-height="auto"/>
+                                <img src={JacksonThree} width="275px" max-height="auto"/>
+                                <img src={JacksonFour} width="275px" max-height="auto"/>
                             </div>
                     <br/>
                     <br/>

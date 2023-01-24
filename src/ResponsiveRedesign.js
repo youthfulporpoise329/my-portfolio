@@ -3,7 +3,17 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ProjectNavBar from './ProjectNavBar'; 
 import './ResponsiveRedesign.css';
-import Slideshow from './Slideshow.js';
+import OriginalInterface from './assets/images/original-interface.png'; 
+import DesktopLoFiPrototype from './assets/images/Desktop-LoFi-Prototype.png'; 
+import TabletLoFiPrototype from './assets/images/Tablet-LoFi-Prototype.png'; 
+import PhoneLoFiPrototype from './assets/images/Phone-LoFi-Prototype.png'; 
+import StyleGuide from './assets/images/style-guide.svg'; 
+import DesktopPrototype from './assets/images/desktop-prototype.svg'; 
+import TabletPrototype from './assets/images/tablet-prototype.svg'; 
+import PhonePrototype from './assets/images/phone-prototype.svg'; 
+
+
+
 
 function ResponsiveRedesign() {
     return (
@@ -24,7 +34,7 @@ function ResponsiveRedesign() {
                     <br/>
                     <Typography variant='h5'gutterBottom>Original Interface</Typography>
                         <div>
-                            <img src="/images/original-interface.png" alt="Buckskill original interface" width="100%" style={{borderRadius: '20px'}}/>
+                            <img src={OriginalInterface} alt="Buckskill original interface" width="100%" style={{borderRadius: '20px'}}/>
                         </div>
                         <Box sx={{width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
                             <Typography gutterBottom sx={{maxWidth: '90%', textAlign: 'center'}}>
@@ -115,9 +125,9 @@ function ResponsiveRedesign() {
                         </Typography>
                 </Box>
                         <Box sx={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center', gap: '20px', padding: '0 150px 0'}}>
-                            <img src="/images/Desktop-LoFi-Prototype.png" alt="desktop lofi prototype" style={{width: '50%'}}/>
-                            <img src="/images/Tablet-LoFi-Prototype.png" alt="tablet lofi prototype" style={{width: '30%'}}/>
-                            <img src="/images/Phone-LoFi-Prototype.png" alt="phone lofi prototype" style={{width: '20%'}}/>
+                            <img src={DesktopLoFiPrototype} alt="desktop lofi prototype" style={{width: '50%'}}/>
+                            <img src={TabletLoFiPrototype } alt="tablet lofi prototype" style={{width: '30%'}}/>
+                            <img src={PhoneLoFiPrototype} alt="phone lofi prototype" style={{width: '20%'}}/>
                             {/* <Slideshow/> */}
                         </Box>
                 <Box sx={{ width: '100%', padding: '70px 300px 0'}}>
@@ -125,18 +135,18 @@ function ResponsiveRedesign() {
                     <br/>
                     <Typography variant='h5'gutterBottom>Visual Design Style Guide</Typography>
                     <Box sx={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
-                        <img src="/images/style-guide.svg" alt="visual design style guide"/>
+                        <img src={StyleGuide} alt="visual design style guide"/>
                     </Box>
                     <br/>
                     <br/>
                     <Typography variant='h5' gutterBottom>HiFi Prototypes</Typography>
                     <Typography gutterBottom>Below are my three high-fidelity prototypes for Buckskill's redesigned website.</Typography>
                     <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px'}}>
-                        <img src="/images/desktop-prototype.svg" alt="desktop hifi prototype" width="1400px" height="auto"/>
+                        <img src={DesktopPrototype} alt="desktop hifi prototype" width="1400px" height="auto"/>
                         <br/>
-                        <img src="/images/tablet-prototype.svg" alt="tablet hifi prototype" width="1100px" height="auto"/>
+                        <img src={TabletPrototype} alt="tablet hifi prototype" width="1100px" height="auto"/>
                         <br/>
-                        <img src="/images/phone-prototype.svg" alt="phone hifi prototype" width="900px" height="auto"/>
+                        <img src={PhonePrototype} alt="phone hifi prototype" width="900px" height="auto"/>
                     </Box>
                     <Typography variant='h5' gutterBottom>Reflection</Typography>
                     <Typography gutterBottom> I gained: 

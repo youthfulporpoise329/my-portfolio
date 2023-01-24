@@ -1,5 +1,5 @@
 import * as React from 'react';
-import projectData from "./assets/project-data.json";
+import projectData from "./assets/project-data";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -25,17 +25,3 @@ function Projects() {
 export default Projects; 
 
 
-{/* <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-  <Grid item xs={6}>
-    <Item>1</Item>
-  </Grid>
-  <Grid item xs={6}>
-    <Item>2</Item>
-  </Grid>
-  <Grid item xs={6}>
-    <Item>3</Item>
-  </Grid>
-  <Grid item xs={6}>
-    <Item>4</Item>
-  </Grid>
-</Grid> */}

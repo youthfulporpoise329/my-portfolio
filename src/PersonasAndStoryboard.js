@@ -4,13 +4,19 @@ import Typography from '@mui/material/Typography';
 import ProjectNavBar from './ProjectNavBar'; 
 import Storyboard from './Storyboard.js'; 
 import QuestionResponses from './QuestionResponses.js'; 
+import ATMInterface from './assets/images/atm-interface.png'; 
+import Michela from './assets/images/michela.png'; 
+import Dylan from './assets/images/dylan.png'; 
+
+
+
 
 function PersonasAndStoryboard() {
     return (
         <Box>
             <ProjectNavBar/>
             <Box sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', marginTop: '75px'}}>
-                <Box class="PersonasAndStoryboard" sx={{ width: '100%', padding: '70px 300px 0'}}>
+                <Box class="PersonasAndStoryboard" style={{width: '100%', padding: '70px 275px 0'}}>
                     <Typography variant='h4' gutterBottom>Personas and Storyboard: ATM Interface</Typography>
                     <Typography variant='h5' gutterBottom>Background</Typography>
                         <Typography gutterBottom>
@@ -27,7 +33,7 @@ function PersonasAndStoryboard() {
                     <Typography variant='h5'>Interface Overview</Typography>
                         <Box sx={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
                             <Box sx={{ width: '78%', padding: '20px 20px 0', display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                                <img src="/images/atm-interface.png" alt="ATM interface sketch" width="500px" max-height="auto"/>
+                                <img src={ATMInterface} alt="ATM interface sketch" width="500px" max-height="auto"/>
                                 <Typography gutterBottom>
                                     The user is prompted to insert their card and then is asked to choose from a number of banking services they&#39;d like to access, 
                                     such as cash withdrawal or checking their account balance. This interface is automating a number of basic financial services which 
@@ -88,17 +94,17 @@ function PersonasAndStoryboard() {
                             Mani-Pedi Michela and DeFi Dylan are two fictional personas I created based off of the traits and actions of the real users I observed.
                         </Typography>
                         <Box sx={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                            <img src="/images/michela.png" alt="ATM interface sketch" width="600px" max-height="auto"/>
-                            <img src="/images/dylan.png" alt="ATM interface sketch" width="600px" max-height="auto"/>
+                            <img src={Michela} alt="ATM interface sketch" width="600px" max-height="auto"/>
+                            <img src={Dylan} alt="ATM interface sketch" width="600px" max-height="auto"/>
                         </Box>
                         <br/>
                         <br/>
                     <Typography variant='h5' gutterBottom>Storyboard</Typography> 
                 </Box>
-                <Box sx={{ width: '100%'}}>
+                <Box style={{ width: '100%'}}>
                     <Storyboard/>
                 </Box>
-                <Box class="PersonasAndStoryboard" sx={{ width: '100%', padding: '70px 300px 0'}}>
+                <Box class="PersonasAndStoryboard" style={{ width: '100%', padding: '70px 275px 0'}}>
                         <br/>
                         <br/>
                     <Typography variant='h5'gutterBottom>Reflection</Typography> 
