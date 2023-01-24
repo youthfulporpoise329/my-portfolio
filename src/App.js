@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App" style={{backgroundColor: "#EEF1FF", fontFamily: "'Raleway', sans-serif"}}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route index element={<Home/>}/>
           <Route path="personas-and-storyboard" element={<PersonasAndStoryboard/>}/>
