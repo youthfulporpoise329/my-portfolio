@@ -1,0 +1,11 @@
+ul {
+    list-style-type: disc; 
+}
+.response {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.question {
+    font-size: 16px;
+    margin-top: 10px;
+}

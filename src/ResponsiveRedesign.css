@@ -1,0 +1,18 @@
+/* .og-interface-container {
+    border-radius:20px;
+    overflow:hidden;
+} */
+
+a {
+    text-decoration: none;
+    /* color: blue;  */
+}
+
+.inner-list {
+    margin-top: 5px;
+    font-size: 16px;
+}
+.outer-list {
+    font-size: 18px;
+    margin-top: 10px;
+}
